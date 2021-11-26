@@ -1,0 +1,26 @@
+.tracking-system{
+    background-color:rgb(174, 174, 255);
+    padding: 100px 0px;
+    color: white;
+}
+.tracking-system h4{
+    font-size: 55px;
+}
+.tracking-system input{
+    height: 60px;
+}
+.cw {
+    width: 35%;
+}
+.tracking-system button{
+    color: white;
+}
+.tracking-system button:hover{
+    color:rgb(174, 174, 255);
+    background-color: #fff;
+}
+@media only screen and (max-width: 600px) {
+    .cw {
+    width: 80%;
+    }
+  }

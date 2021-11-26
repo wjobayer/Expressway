@@ -1,0 +1,26 @@
+.Contact{
+    text-align: left;
+    margin: 50px 0px;
+}
+.Contact h1{
+    text-align: center;
+}
+#customw{
+    width: 90%;
+}
+.contactuspage{
+    display: flex;
+}
+.contactuspage img{
+    width: 100%;
+    /* height: 88%; */
+    margin-top: 170px;
+}
+@media only screen and (max-width: 600px) {
+    .contactuspage {
+      flex-direction: column-reverse;
+    }
+    #customw{
+        width: 100%;
+    }
+  }
